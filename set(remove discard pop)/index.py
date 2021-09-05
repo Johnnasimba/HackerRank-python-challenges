@@ -15,9 +15,5 @@ for i in range(m):
         element = int(command_list[1])
         s.discard(element)
 
-sum_of_elements = 0
 
-for i in s:
-    sum_of_elements = sum_of_elements + i
-
-print(sum_of_elements)
+print(sum(s))
